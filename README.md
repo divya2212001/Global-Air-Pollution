@@ -2,7 +2,7 @@
 
 A comprehensive analysis of global air pollution patterns across 23,463 cities in 175 countries, examining PM2.5, CO, Ozone, and NO2 pollutants.
 
-## 🌍 Project Overview
+## Project Overview
 
 This project analyzes global air quality data to:
 - Identify pollution hotspots worldwide
@@ -10,7 +10,7 @@ This project analyzes global air quality data to:
 - Provide data-driven insights for public health policy
 - Generate actionable recommendations for interventions
 
-## 📊 Key Findings
+## Key Findings
 
 - **18.4%** of cities have concerning air quality levels (unhealthy or worse)
 - **PM2.5** is the dominant pollutant with mean AQI of 68.52
@@ -19,7 +19,7 @@ This project analyzes global air quality data to:
 - Moderate pollutant correlations suggest common emission sources
 - **191 cities** in hazardous category requiring urgent intervention
 
-## 🗂️ Dataset
+## Dataset
 
 - **Source:** Global Air Pollution Dataset
 - **Size:** 23,463 records
@@ -27,7 +27,7 @@ This project analyzes global air quality data to:
 - **Pollutants:** PM2.5, CO, Ozone, NO2
 - **Download:** https://drive.google.com/file/d/1JUI96rqrpij1IhlplOq9Qpe2IMEv_iNc/view?usp=sharing
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python 3.12**
 - **Data Analysis:** Pandas, NumPy
@@ -35,7 +35,7 @@ This project analyzes global air quality data to:
 - **Statistical Analysis:** SciPy
 - **Environment:** Google Colab
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -66,7 +66,7 @@ gdown>=4.7.0
 !gdown "https://drive.google.com/uc?id=1JUI96rqrpij1IhlplOq9Qpe2IMEv_iNc" -O "global air pollution dataset.csv"
 ```
 
-## 📈 Visualizations
+## Visualizations
 
 The analysis generates the following visualizations:
 
@@ -77,7 +77,7 @@ The analysis generates the following visualizations:
 5. **PM2.5 Health Risk** - Category distribution pie chart
 6. **Correlation Heatmap** - Relationships between pollutants
 
-## 📊 Results Summary
+## Results Summary
 
 ### Global Air Quality Distribution
 | Category | Percentage |
@@ -107,7 +107,7 @@ The analysis generates the following visualizations:
 - **PM2.5 ↔ CO:** 0.439 (moderate - traffic/industrial)
 - **PM2.5 ↔ Ozone:** 0.340 (weak - different mechanisms)
 
-## 🎯 Recommendations
+## Recommendations
 
 ### Immediate Actions
 1. Emergency interventions in 191 hazardous cities
@@ -121,7 +121,7 @@ The analysis generates the following visualizations:
 4. Expansion of monitoring networks
 5. Source-specific regulations (traffic, industry, agriculture)
 
-## 🔬 Methodology
+## Methodology
 
 1. **Data Preprocessing:** Automated column detection, quality checks, validation
 2. **Descriptive Statistics:** Mean, median, std dev for all pollutants
@@ -129,7 +129,7 @@ The analysis generates the following visualizations:
 4. **Correlation Analysis:** Pearson coefficients between pollutants
 5. **Comparative Analysis:** Pollutant distributions and patterns
 
-## 📄 Project Deliverables
+## Project Deliverables
 
 - ✅ Data Analysis Code
 - ✅ 15 Visualizations
@@ -138,13 +138,13 @@ The analysis generates the following visualizations:
 - ✅ Project Report (PDF)
 - ✅ Video Presentation
 
-## 👥 Team Members
+## Team Members
 
 Sneha Chepurwar
 Shubhanshu Dubey
 Divyanjali Gopisetty
 
-## 📚 References
+## References
 
 1. World Health Organization. (2021). *WHO Global Air Quality Guidelines.*
 2. Global Air Pollution Dataset. Retrieved from Kaggle
