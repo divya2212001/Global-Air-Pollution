@@ -10,7 +10,7 @@ Original file is located at
 from google.colab import files
 uploaded = files.upload()
 
-!pip install reverse_geocoder
+
 
 import reverse_geocoder as rg
 
